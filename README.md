@@ -1,4 +1,4 @@
-<h1 align="center">Nome do projeto</h1><!--Nome curto e objetivo-->
+<h1 align="center">FILMES API</h1><!--Nome curto e objetivo-->
 <h5 align="center">Status: Em andamento </h5><!--Concluido, Em andamento ou Finalizado-->
 
 
@@ -6,11 +6,11 @@
 <!--Sumário que leva as sessões do readme-->
 <ul>
     <li><a href="#sobre">Sobre</a></li>
-    <li><a href="#requisitosmacro">Requisitos macro</a>API de filmes, listando filmes,Cineme, Gerente, Sessão</li>
+    <li><a href="#requisitosmacro">Requisitos macro</a></li>
     <li><a href="#demo">Demonstração da aplicação</a></li>
     <li><a href="#prereq">Pré-requisitos e como rodar a aplicação</a></li>
-    <li><a href="#tec">Tecnologias utilizadas</a>C#, DotNet 5.0</li>
-    <li><a href="#autor">Responsáveis</a>Jorge Mateus</li>
+    <li><a href="#tec">Tecnologias utilizadas</a></li>
+    <li><a href="#autor">Responsáveis</a></li>
     <li><a href="#doc">Documentação</a></li>
 </ul>
 
@@ -26,10 +26,13 @@
 <h2 id="requisitosmacro">📝 Requisitos macro</h2>
 <!--Lista de todos as funcionalidades do sistema (nível macro)-->
 <ul>
-    <li>Nome da feature</li>
-    <li>Nome da feature</li>
-    <li>Nome da feature</li>
-    <li>Nome da feature</li>
+    <li>API de filmes, listando filmes,Cineme, Gerente, Sessão</li>
+    <li>FILME</li>
+    <li>SESSÃO</li>
+    <li>CINEMA</li>
+    <li>USUÁRIO</li>
+    <li>GERENTE</li>
+    <li>SESSÃO</li>
 </ul>
 
 
@@ -37,18 +40,17 @@
 <!--Conjunto de prints da aplicação-->
 <h1 align="center">
     <img title="Imagem 1" src=""/>
-    <img title="Imagem 2" src=""/>
-    <img title="Imagem 3" src=""/>
 </h1>
 
 
 <h2 id="prereq">📀 Pré-requisitos e como rodar a aplicação</h2>
 <!--Descrição do pré requisito de instalação na maquina em forma de passo a passo-->
 <ol>
-    <li>Descrição do passo 1</li>
-    <li>Descrição do passo 2</li>
-    <li>Descrição do passo 3</li>
-    <li>Descrição do passo 4</li>
+    <li>Em sua máquina tenha a versão do sdk dotnet 5.0</li>
+    <li>Visual Studio 2019</li>
+    <li>Tenha o SQL SERVER instalado, altere a conexão de banco para o seu banco e rode os seguinte comando: dotnet ef migrations add Initial e aposs isto dotnet ef update database</li>
+    <li>Faça isso para as duas aplicações FilmesAPI e UsuarioAPI</li>
+    <li>Após isto rode as duas aplicações</li>
 </ol>
 
 
@@ -56,25 +58,20 @@
 <!--Descrição das tecnologias utilizadas (linguagem, biblioteca, framework etc)-->
 <p>As seguintes ferramentas foram utilizadas na construção do projeto:</p>
 <ul>
-    <li>Tecnologia 1</li>
-    <li>Tecnologia 2</li>
-    <li>Tecnologia 3</li>
+    <li>Visual Studio 2019</li>
+    <li>.NET 5</li>
+    <li>Sql Server 2014, 2017 ou 2019</li>
 </ul>
 
 
 <h2 id="doc">📖 Documentos</h2>
 <ul>
-  <li><a href="">Nome do documento</a></li>
-  <li><a href="">Nome do documento</a></li>
-  <li><a href="">Nome do documento</a></li>
-  <li><a href="">Nome do documento</a></li>
+ 
 </ul>
 
 
 <h2 id="autor">👦 Responsáveis</h2>
 <!--Listagem dos responsáveis pelo projeto-->
 <ul>
-   <li>Nome completo do responsável</li>
-   <li>Nome completo do responsável</li>
-   <li>Nome completo do responsável</li>
+   <li>Jorge Mateus</li>
 <ul>
